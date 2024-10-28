@@ -4,7 +4,8 @@ from keras.models import load_model
 from PIL import Image
 
 # Load the pre-trained model
-model = load_model('C:\\Users\\HP\\Documents\\handwritten_digit_recognition_app\\handwritten_digit_recognition_model.h5')
+model = load_model('handwritten_digit_recognition_model.h5')
+
 
 # Function to preprocess the image for the model
 def preprocess_image(image):
